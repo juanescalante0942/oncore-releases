@@ -6,9 +6,9 @@ Application and website source code are private. This repository contains distri
 
 ## macOS
 
-Apple Silicon, macOS 13 or later. Version 1.5.2. Ad-hoc signed; not Apple-notarized.
+Apple Silicon, macOS 13 or later. Version 1.5.3. Ad-hoc signed; not Apple-notarized.
 
-[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.5.2/Oncore-1.5.2-mac-arm64.dmg)
+[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.5.3/Oncore-1.5.3-mac-arm64.dmg)
 
 With Homebrew installed:
 
