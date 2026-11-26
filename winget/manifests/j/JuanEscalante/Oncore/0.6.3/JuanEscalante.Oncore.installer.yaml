@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.28.0.schema.json
+
+PackageIdentifier: JuanEscalante.Oncore
+PackageVersion: 0.6.3
+InstallerType: nullsoft
+Scope: user
+UpgradeBehavior: install
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+AppsAndFeaturesEntries:
+  - DisplayName: Oncore (experimental)
+    Publisher: Juan Escalante
+    DisplayVersion: 0.6.3
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.6.3/Oncore-Setup-0.6.3-x64.exe
+    InstallerSha256: 1F8DBBDAC8EBA5ABE48BE75181CBD1555ED53635734BEAAFE5C10F543297B668
+ManifestType: installer
+ManifestVersion: 1.28.0
