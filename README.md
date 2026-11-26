@@ -20,7 +20,7 @@ brew install --cask juanescalante0942/tap/oncore
 
 Experimental x64 build, version 0.6.2. Unsigned installer.
 
-[Download installer](https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.6.2/Oncore-Setup-0.6.2-unsigned-x64.exe)
+[Download installer](https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.6.2/Oncore-Setup-0.6.2-x64.exe)
 
 [WinGet draft submission #490118](https://github.com/microsoft/winget-pkgs/pull/490118) is pending Windows install validation, owner completion of Microsoft’s contributor agreement, and Microsoft review/indexing. Use the direct installer until the package is available in the catalog. The intended package ID is `JuanEscalante.Oncore`.
 
