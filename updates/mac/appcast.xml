@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Oncore updates</title><link>https://github.com/juanescalante0942/oncore-releases</link><description>Oncore Mac updates</description><language>en</language><item><title>Oncore 1.8.0</title><sparkle:version>33</sparkle:version><sparkle:shortVersionString>1.8.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion><enclosure url="https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.8.0/Oncore-1.8.0-mac-arm64.dmg" length="4181781" type="application/octet-stream" sparkle:edSignature="YIB83mZtcf7kEgjnT3HTqml7z0CdtIAInbxAyZ7kcG6YwnNUn0+ivuE1tiTzdiXVq1/iNHXP+C4vvbJkALnJCA=="></enclosure></item></channel></rss><!-- sparkle-signatures:
+edSignature: xlrNlyuW6LDw6vqBsot54fum67vOXU1wstzipuBP3mkHuuojhiFEWWZeP0GHKa64E8h+8LAeLIaLfs3WKkkvBA==
+length: 1067
+-->

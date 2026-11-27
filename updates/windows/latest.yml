@@ -1,0 +1,8 @@
+version: 0.9.0
+files:
+  - url: https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.0/Oncore-Setup-0.9.0-x64.exe
+    sha512: +oajEKtLLzdAiazdOkqeIiuHDfamGqiSCOK6+qBFNYBtBOte5Awd2PxANkWThd+67yDauQvvFooDEroNsBI+rA==
+    size: 155601747
+path: https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.0/Oncore-Setup-0.9.0-x64.exe
+sha512: +oajEKtLLzdAiazdOkqeIiuHDfamGqiSCOK6+qBFNYBtBOte5Awd2PxANkWThd+67yDauQvvFooDEroNsBI+rA==
+releaseDate: '2026-11-27T05:57:07.770Z'
