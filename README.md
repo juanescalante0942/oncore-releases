@@ -6,9 +6,9 @@ Application and website source code are private. This repository contains distri
 
 ## macOS
 
-Apple Silicon, macOS 13 or later. Version 1.8.0. Ad-hoc signed; not Apple-notarized.
+Apple Silicon, macOS 13 or later. Version 1.8.1. Ad-hoc signed; not Apple-notarized.
 
-[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.8.0/Oncore-1.8.0-mac-arm64.dmg)
+[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.8.1/Oncore-1.8.1-mac-arm64.dmg)
 
 With Homebrew installed:
 
@@ -18,9 +18,9 @@ brew install --cask juanescalante0942/tap/oncore
 
 ## Windows
 
-Experimental x64 build, version 0.9.0. Unsigned installer.
+Experimental x64 build, version 0.9.1. Unsigned installer.
 
-[Download installer](https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.0/Oncore-Setup-0.9.0-x64.exe)
+[Download installer](https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.1/Oncore-Setup-0.9.1-x64.exe)
 
 [WinGet draft submission #490118](https://github.com/microsoft/winget-pkgs/pull/490118) is pending Windows install validation, owner completion of Microsoft’s contributor agreement, and Microsoft review/indexing. Use the direct installer until the package is available in the catalog. The intended package ID is `JuanEscalante.Oncore`.
 
@@ -34,6 +34,10 @@ Ten built-in presets include Dev’s Pick (Juan’s saved look), Focus, Glass, C
 
 ## In-app updates
 
-Mac 1.8.0 and Windows 0.9.0 introduce in-app updates. Install one of these versions manually once; future updates can be downloaded and installed inside Oncore. Optional updates allow Later and continued use. Required updates gate affected older versions until they update, with Retry and Quit available. This initial release is optional. Presets and settings are preserved.
+Mac 1.8.0 and Windows 0.9.0 introduce in-app updates. Install one of these versions manually once; future updates can be downloaded and installed inside Oncore. Optional updates allow Later and continued use. Required updates gate affected older versions until they update, with Retry and Quit available. Mac 1.8.1 and Windows 0.9.1 are required updates for earlier updater-enabled versions when they receive the signed policy. Presets and settings are preserved.
 
 Signed update policies and platform feeds live in `updates/`. The private signing keys and application source are never published here. Mac uses Sparkle’s signed feed and archive; Windows verifies its installer against signed policy digests. Actual Sparkle replacement and native Windows upgrade testing remain pending.
+
+## Required settings update — Mac 1.8.1 / Windows 0.9.1
+
+Adds Quick Access, editable slider values, independent song detail colors in every lyric color mode, triple-click locking and in-app support options. Windows Appearance autosaves preserve newer lock changes. The signed policies require Mac 1.8.1 and Windows 0.9.1; older builds without updater support need a manual installation. Existing preferences and placement are kept.
