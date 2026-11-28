@@ -1,8 +1,8 @@
-version: 0.9.2
+version: 0.9.4
 files:
-  - url: https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.2/Oncore-Setup-0.9.2-x64.exe
-    sha512: gsdJ/JYM1a9h8GXBwRIsNmKPLUZVnC9OdVzflOqa6R6ZUsnt0zargQeq32FkbdI9wkmA/hHfPrtMqe2/3UlfZw==
-    size: 156603740
-path: https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.2/Oncore-Setup-0.9.2-x64.exe
-sha512: gsdJ/JYM1a9h8GXBwRIsNmKPLUZVnC9OdVzflOqa6R6ZUsnt0zargQeq32FkbdI9wkmA/hHfPrtMqe2/3UlfZw==
-releaseDate: '2026-11-28T01:47:35.308Z'
+  - url: https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.4/Oncore-Setup-0.9.4-x64.exe
+    sha512: jFsC79jbsz1mKH60rTfz0bGFZcMZDquvsYrjrDr8V4ZWdxxNdCRe5yELnnGgOaHYxFcvsQbfDNi6odkI+7S6Kg==
+    size: 156603722
+path: https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.4/Oncore-Setup-0.9.4-x64.exe
+sha512: jFsC79jbsz1mKH60rTfz0bGFZcMZDquvsYrjrDr8V4ZWdxxNdCRe5yELnnGgOaHYxFcvsQbfDNi6odkI+7S6Kg==
+releaseDate: '2026-11-28T02:11:15.970Z'
