@@ -6,9 +6,9 @@ Application and website source code are private. This repository contains distri
 
 ## macOS
 
-Apple Silicon, macOS 13 or later. Version 1.8.1. Ad-hoc signed; not Apple-notarized.
+Apple Silicon, macOS 13 or later. Version 1.8.2. Ad-hoc signed; not Apple-notarized.
 
-[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.8.1/Oncore-1.8.1-mac-arm64.dmg)
+[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.8.2/Oncore-1.8.2-mac-arm64.dmg)
 
 With Homebrew installed:
 
@@ -41,3 +41,7 @@ Signed update policies and platform feeds live in `updates/`. The private signin
 ## Required settings update — Mac 1.8.1 / Windows 0.9.1
 
 Adds Quick Access, editable slider values, independent song detail colors in every lyric color mode, triple-click locking and in-app support options. Windows Appearance autosaves preserve newer lock changes. The signed policies require Mac 1.8.1 and Windows 0.9.1; older builds without updater support need a manual installation. Existing preferences and placement are kept.
+
+## Mac 1.8.2 — Smooth lyric motion fix
+
+Preserves in-flight transitions when macOS reapplies an unchanged appearance and keeps your Smooth lyric motion choice while battery saver is active. Includes the corrected website URL and first-launch instructions in READ ME FIRST.txt and the app’s Help menu. This update is optional for 1.8.1; the minimum supported version remains 1.8.1.
