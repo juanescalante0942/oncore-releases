@@ -6,9 +6,9 @@ Application and website source code are private. This repository contains distri
 
 ## macOS
 
-Apple Silicon, macOS 13 or later. Version 1.8.2. Ad-hoc signed; not Apple-notarized.
+Apple Silicon, macOS 13 or later. Version 1.8.3. Ad-hoc signed; not Apple-notarized.
 
-[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.8.2/Oncore-1.8.2-mac-arm64.dmg)
+[Download DMG](https://github.com/juanescalante0942/oncore-releases/releases/download/mac-v1.8.3/Oncore-1.8.3-mac-arm64.dmg)
 
 With Homebrew installed:
 
@@ -18,9 +18,9 @@ brew install --cask juanescalante0942/tap/oncore
 
 ## Windows
 
-Experimental x64 build, version 0.9.1. Unsigned installer.
+Experimental x64 build, version 0.9.2. Unsigned installer.
 
-[Download installer](https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.1/Oncore-Setup-0.9.1-x64.exe)
+[Download installer](https://github.com/juanescalante0942/oncore-releases/releases/download/windows-v0.9.2/Oncore-Setup-0.9.2-x64.exe)
 
 [WinGet draft submission #490118](https://github.com/microsoft/winget-pkgs/pull/490118) is pending Windows install validation, owner completion of Microsoft’s contributor agreement, and Microsoft review/indexing. Use the direct installer until the package is available in the catalog. The intended package ID is `JuanEscalante.Oncore`.
 
@@ -45,3 +45,7 @@ Adds Quick Access, editable slider values, independent song detail colors in eve
 ## Mac 1.8.2 — Smooth lyric motion fix
 
 Preserves in-flight transitions when macOS reapplies an unchanged appearance and keeps your Smooth lyric motion choice while battery saver is active. Includes the corrected website URL and first-launch instructions in READ ME FIRST.txt and the app’s Help menu. This update is optional for 1.8.1; the minimum supported version remains 1.8.1.
+
+## Required workspace update — Mac 1.8.3 / Windows 0.9.2
+
+Adds settings search, nine-section Mac navigation with App and Studio, context-sensitive Brat panel controls, free offscreen placement and customizable notch mode. Windows settings now include Quit Oncore. Earlier updater-enabled versions must update after receiving the signed policy. Saved preferences are retained.
